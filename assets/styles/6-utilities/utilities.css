@@ -1,0 +1,4 @@
+/* ITCSS - Utilities: single-purpose helper classes (highest specificity) */
+.u-text-center { text-align: center !important; }
+.u-mb-0 { margin-bottom: 0 !important; }
+.u-hidden { display: none !important; }

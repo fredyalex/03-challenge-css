@@ -1,0 +1,50 @@
+/* ITCSS - Components: specific UI modules */
+.c-social {
+  background: #1f1f1f;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.c-social__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+}
+
+.c-social__name {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.c-social__location {
+  color: #c4f82a;
+  font-weight: 600;
+  margin-block: 0.25rem 1rem;
+}
+
+.c-social__description {
+  color: #b3b3b3;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.c-social__links {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.c-btn {
+  display: block;
+  background: #333;
+  color: #eaeaea;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.c-btn:hover {
+  background: #444;
+}

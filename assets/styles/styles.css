@@ -1,0 +1,21 @@
+/* ITCSS master stylesheet: imports layers from low-specificity to high-specificity */
+/* 0. Settings: global variables, fonts, color tokens */
+@import url('./0-settings/fonts.css');
+
+/* 1. Tools: mixins, functions (pre/post processors). Keep empty if not used. */
+@import url('./1-tools/tools.css');
+
+/* 2. Generic: resets/normalize, box-sizing */
+@import url('./2-generic/generic.css');
+
+/* 3. Elements: bare HTML elements (h1, a, ul, etc.) */
+@import url('./3-elements/elements.css');
+
+/* 4. Objects: non-cosmetic patterns (layout systems) */
+@import url('./4-objects/objects.css');
+
+/* 5. Components: specific UI components */
+@import url('./5-components/components.css');
+
+/* 6. Utilities: helpers and overrides (highest specificity) */
+@import url('./6-utilities/utilities.css');
