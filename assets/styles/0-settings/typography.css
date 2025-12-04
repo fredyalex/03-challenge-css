@@ -1,0 +1,41 @@
+/* ITCSS - Settings: Typography scale (font sizes & line-heights)
+   Nota: El style‑guide define el body copy en 14px. En este proyecto, 1rem = 14px
+   (ver elements.css: html { font-size: 14px; }). Por ello los tamaños se expresan en rem. */
+
+:root {
+  /* Escala de tamaño (rem, basada en 14px = 1rem) */
+  --font-size-xs: 0.857rem;   /* ≈12px */
+  --font-size-sm: 0.929rem;   /* ≈13px */
+  --font-size-base: 1rem;     /* 14px  → párrafos por style‑guide */
+  --font-size-md: 1.143rem;   /* ≈16px */
+  --font-size-lg: 1.286rem;   /* ≈18px */
+  --font-size-xl: 1.429rem;   /* ≈20px */
+  --font-size-2xl: 1.714rem;  /* ≈24px */
+  --font-size-3xl: 2rem;      /* ≈28px */
+
+  /* Alturas de línea recomendadas */
+  --lh-tight: 1.25;
+  --lh-base: 1.5;
+  --lh-relaxed: 1.7;
+
+  /* Pesos tipográficos (del style‑guide: 400, 600, 700) */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Alias semánticos para uso en Elements/Components */
+  --text-xs: var(--font-size-xs);
+  --text-sm: var(--font-size-sm);
+  --text-base: var(--font-size-base);
+  --text-md: var(--font-size-md);
+  --text-lg: var(--font-size-lg);
+  --text-xl: var(--font-size-xl);
+  --text-2xl: var(--font-size-2xl);
+  --text-3xl: var(--font-size-3xl);
+
+  /* Alias semánticos de peso */
+  --fw-body: var(--font-weight-regular);
+  --fw-heading: var(--font-weight-bold);
+  --fw-accent: var(--font-weight-semibold);
+  --fw-button: var(--font-weight-semibold);
+}

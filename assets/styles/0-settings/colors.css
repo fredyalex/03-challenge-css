@@ -1,0 +1,21 @@
+/* ITCSS - Settings: Color tokens and semantic aliases */
+:root {
+    /* Design tokens (from style-guide.md) */
+    --color-green-500: hsl(75 94% 57%);
+    --color-white: hsl(0 0% 100%);
+    --color-grey-700: hsl(0 0% 20%);
+    --color-grey-800: hsl(0 0% 12%);
+    --color-grey-900: hsl(0 0% 8%);
+    --color-black: hsl(0 0% 0%);
+
+    /* Semantic aliases (use these in layers above Settings) */
+    --color-accent: var(--color-green-500);
+    --bg-body: var(--color-grey-900);
+    --bg-card: var(--color-grey-800);
+    --bg-text-base: var(--color-white);
+
+    --bg-button: var(--color-grey-700);
+    --bg-button-text: var(--color-white);
+    /* Slightly lighter than grey-700 for hover state */
+    --bg-button-hover: hsl(0 0% 27%);
+}

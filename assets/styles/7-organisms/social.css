@@ -1,0 +1,10 @@
+.g-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25rem;
+    gap: var(--gap-md);
+    background: var(--bg-card);
+    padding: 30px;
+    border-radius: 0.5rem;
+}

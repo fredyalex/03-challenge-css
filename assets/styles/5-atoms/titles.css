@@ -1,0 +1,12 @@
+.a-social-username {
+    font-size: var(--text-2xl);
+}
+
+.a-social-location {
+    font-size: var(--text-sm);
+    color: var(--color-accent);
+}
+
+.a-social-description {
+    font-size: var(--text-sm);
+}
